@@ -1,7 +1,6 @@
 package comunicacion;
 
-public abstract class Escrito extends Pictograma{
-	
+public abstract class Escrito extends Pictograma {
 	private String titulo;
 	private String autor;
 	private int paginas;
@@ -40,5 +39,4 @@ public abstract class Escrito extends Pictograma{
 	}
 	
 	abstract int palabrasTotales(int palabrasPagina);
-	
 }

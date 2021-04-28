@@ -1,8 +1,7 @@
 package comunicacion;
 
 public abstract class Pictograma {
-	
-	private String origen;
+private String origen;
 	
 	public Pictograma(String origen) {
 		super();
@@ -20,5 +19,4 @@ public abstract class Pictograma {
 	abstract String interpretacion ();
 	
 	public abstract String toString();
-	
 }
